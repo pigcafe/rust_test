@@ -10,7 +10,7 @@ fn main() {
     println!("{}", word);
 
     // NOTE: No errors occurs.
-    //   In the doc of rust, an error should be happened.
+    //   In the doc of rust, an error will be happened.
     //   However, if anyone no use it after here, no error happened at this line.
     //   Environment: rustc 1.45.0 (5c1f21c3b 2020-07-13) running on Ubuntu-20.04
     s.clear();
